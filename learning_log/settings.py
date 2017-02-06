@@ -146,7 +146,7 @@ if cwd == '/app' or cwd[:4] == '/tmp':
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
     # Allow all host headers.
-    ALLOWED_HOSTS = ['learnjournal.heroku.com']
+    ALLOWED_HOSTS = ['learnjournal.herokuapp.com']
 
     DEBUG = False
 
